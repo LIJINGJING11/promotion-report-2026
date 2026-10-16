@@ -106,7 +106,7 @@ const organizationCases = [
       { type: 'image', src: './assets/project2-framework.png', title: '素材工坊方法框架' },
       { type: 'video', src: './assets/project2-demo-web.mp4', title: '素材工坊功能演示' },
       { type: 'image', src: './assets/additional-materials/org-workshop-feedback.png', title: '酒店素材工坊 · 项目反馈' },
-      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfJHbi3i3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店智能化素材工坊项目资料' }
+      { id: 'org-workshop-project-link', type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfJHbi3i3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店智能化素材工坊项目资料' }
     ]
   }
 ];
