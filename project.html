@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0d0f" />
+    <title>项目举证 · 设计晋升报告</title>
+  <link rel="stylesheet" href="./styles.css?v=hero-title-scale-20261015" />
+    <link rel="stylesheet" href="./project.css?v=star-card-glow-soft-20261015" />
+  </head>
+  <body class="project-body">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="./index.html#top" aria-label="返回报告首页">
+        <span class="wordmark-mark">LJ</span>
+        <span class="wordmark-text">DESIGN PROMOTION DOSSIER</span>
+      </a>
+      <nav class="top-nav project-nav" aria-label="项目页导航">
+        <a href="./index.html#profile">01 个人</a>
+        <a href="./index.html#career">02 轨迹</a>
+        <a href="./index.html#proof">03 专业</a>
+        <a href="./index.html#org">04 组织</a>
+      </nav>
+      <a class="header-tag" href="./index.html#proof">返回案例矩阵 <span>↩</span></a>
+    </header>
+
+    <main class="project-page" id="project-page">
+      <div class="project-shell">
+        <div class="project-breadcrumb"><span>03 / PROFESSIONAL CONTRIBUTION</span><i></i><span id="project-breadcrumb-case">CASE / 01</span></div>
+
+        <section class="project-intro" aria-labelledby="project-title">
+          <div class="project-intro-copy">
+            <p class="display-label">PROJECT EVIDENCE</p>
+            <h1 id="project-title">项目举证</h1>
+            <p class="project-standard" id="project-standard"></p>
+          </div>
+          <div class="project-intro-index" aria-label="项目信息">
+            <span class="project-hero-icon" id="project-hero-icon" aria-hidden="true"></span>
+            <div class="project-intro-index-meta">
+              <span>CASE / <b id="project-number">01</b></span>
+              <small>STAR / 04</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-hero" aria-label="项目概览">
+          <div class="project-summary-panel">
+            <p class="project-kicker">PROJECT CONTEXT</p>
+            <p class="project-summary" id="project-summary"></p>
+            <div class="project-meta-grid">
+              <div><span>PERIOD</span><strong id="project-time"></strong></div>
+            </div>
+            <div class="project-statement"><span>MY CONTRIBUTION</span><p id="project-contribution"></p></div>
+          </div>
+        </section>
+
+        <section class="project-evidence" aria-labelledby="evidence-chain-title">
+          <div class="project-section-head">
+            <div><p class="display-label">EVIDENCE CHAIN</p><h2 id="evidence-chain-title">从问题出发，<br /><em>让结果可被复盘。</em></h2></div>
+            <p>用 STAR 结构拆解项目背景、职责、行动与结果，说明个人贡献如何转化为业务与团队价值。</p>
+          </div>
+          <div class="star-cards" id="project-star-cards"></div>
+        </section>
+
+        <section class="project-gallery" aria-labelledby="project-gallery-title">
+          <div class="project-gallery-head">
+            <div>
+              <p class="display-label">PROJECT MATERIALS</p>
+              <h2 id="project-gallery-title">让过程<br /><em>清晰可见。</em></h2>
+            </div>
+            <p>项目中的关键页面、流程与演示资料。点击任意缩略图可放大查看，视频支持直接播放。</p>
+          </div>
+          <div class="project-gallery-tools">
+            <p class="project-gallery-summary"><span><b data-material-media-count>0</b> 图片与视频</span><i></i><span><b data-material-link-count>0</b> 文档链接</span></p>
+            <button class="material-manager-toggle" type="button" data-material-manager-toggle aria-expanded="false" aria-controls="project-material-manager"><span data-material-manager-label>管理资料</span><b>+</b></button>
+          </div>
+          <section class="project-material-manager" id="project-material-manager" data-material-manager hidden aria-label="项目资料管理">
+            <div class="project-material-manager-intro"><p class="display-label">MATERIAL MANAGER</p><h3>更新项目<br /><em>过程资料。</em></h3><p>图片、视频与文档链接分开保存。修改仅保存在当前浏览器，可随时恢复预设资料。</p></div>
+            <div class="project-material-manager-forms">
+              <form class="project-material-form" data-material-file-form>
+                <p>图片 / 视频</p>
+                <label class="material-file-picker"><input type="file" accept="image/*,video/*" data-material-file-input /><span>选择本地文件</span><b>＋</b></label>
+                <input type="text" data-material-file-title placeholder="资料名称（可选）" maxlength="80" />
+                <button type="submit">上传图片或视频 <b>↗</b></button>
+              </form>
+              <form class="project-material-form" data-material-link-form>
+                <p>文档链接</p>
+                <input type="text" data-material-link-title placeholder="链接名称（可选）" maxlength="80" />
+                <input type="url" data-material-link-url placeholder="https://…" inputmode="url" required />
+                <button type="submit">添加文档链接 <b>↗</b></button>
+              </form>
+              <div class="project-material-manager-foot"><p data-material-message aria-live="polite">在“管理资料”状态下，点击任意资料右上角即可删除。</p><button type="button" data-material-reset>恢复预设资料</button></div>
+            </div>
+          </section>
+          <div class="project-material-groups" id="project-gallery"></div>
+          <article class="project-gallery-result" id="project-gallery-result" aria-labelledby="project-result-title">
+            <div class="project-result-aside">
+              <span>R / RESULT &amp; REVIEW</span>
+              <h3 id="project-result-title">成果及复盘</h3>
+              <p class="project-result-decoration" aria-hidden="true"><span>RESULT MATRIX / 01—02</span><b>DESIGN DELIVERY</b><small>PROCESS · OUTPUT · REVIEW</small></p>
+            </div>
+            <div class="project-result-copy" id="project-result-copy"></div>
+          </article>
+          <div class="project-result-capability" id="project-result-capability" aria-labelledby="project-result-capability-label">
+            <div class="project-capability-aside">
+              <span>CAPABILITY / 体现的能力</span>
+              <h3 id="project-result-capability-label">能力体现</h3>
+              <p class="project-capability-decoration" aria-hidden="true"><span>CAPABILITY MATRIX / 01—03</span><b>DESIGN<br />IMPACT</b><small>METHOD · DELIVERY · COLLABORATION</small></p>
+            </div>
+            <div class="project-capability-copy" id="project-capability"></div>
+          </div>
+        </section>
+
+        <nav class="project-pagination" aria-label="切换项目">
+          <a id="project-prev" href="#"><span>← PREVIOUS CASE</span><strong></strong></a>
+          <a href="./index.html#proof"><span>BACK TO MATRIX</span><strong>全部案例</strong></a>
+          <a id="project-next" href="#"><span>NEXT CASE →</span><strong></strong></a>
+        </nav>
+      </div>
+    </main>
+
+    <dialog id="project-media-dialog" class="media-dialog">
+      <button id="project-media-close" class="dialog-close" aria-label="关闭预览">×</button>
+      <div class="dialog-media"></div>
+      <p class="dialog-caption"></p>
+    </dialog>
+
+    <footer class="site-footer"><span>LI JING / UI DESIGN / PROMOTION REPORT 2026</span><span>DESIGN WITH PURPOSE · DELIVER WITH PROOF</span></footer>
+    <script src="./materials-manager.js?v=cleanup-missing-uploads-20261016"></script>
+    <script src="./project.js?v=split-hampton-communication-20261016"></script>
+  </body>
+</html>
