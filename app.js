@@ -11,7 +11,7 @@ const professionalCases = [
     s: '针对核心模块的用户痛点，明确需要通过重构提升视觉一致性与交互体验。', t: '主导一期、深度负责二期重构 UI 与交互设计，承担设计稿输出、研发对齐及迭代优化。', a: '梳理技术支持痛点，输出视觉方案与交互原型；联动研发，通过“调研—拆解—落地”的闭环推进走查与优化。', r: '一期落地 50 余项优化，二期持续完善核心模块，提升视觉与交互体验，沉淀可复用的设计落地经验。', link: 'https://mastergo.com/goto/WOV8lsja?page_id=145:38161&file=140525099497058', linkText: '打开 TCL 行业开放平台协作文件'
   },
   {
-    no: '02', filter: 'innovation', standard: '设计创新探索与应用', title: '酒店智能化素材工坊', time: '2024.01 — 至今', capability: '设计创新探索能力 · 创新方案落地 · 方法总结与推广', icon: 'ai', iconLabel: 'AI / AUTOMATION',
+    no: '02', filter: 'innovation', standard: '设计创新探索与应用', title: '酒店智能化素材工坊', time: '2024.01 — 至今', capability: '设计创新探索能力 · 创新方案落地 · 方法沉淀与产品化落地', icon: 'ai', iconLabel: 'AI / AUTOMATION',
     summary: '探索新技术与交互形式，提升开机素材包制作效率。',
     s: 'AI 能力与交互形态持续演进，酒店素材制作需要更高效、更稳定的生产方式。', t: '负责创新设计与 AI 应用探索，推动成果落地及方法分享。', a: '运用 AI 完成酒店素材工坊、原型及 Demo；将图片、视频、运营模板、AI 海报与自动成片等场景串联。', r: '创新成果支持产品体验与展示，获得领导认可；素材工坊已交付技术支持使用，减少重复工作与人力投入。', link: './assets/project2-demo-web.mp4', linkText: '打开素材工坊功能演示'
   },
