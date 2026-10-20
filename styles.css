@@ -52,7 +52,7 @@ img { display: block; max-width: 100%; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-weight: 500; letter-spacing: -.055em; line-height: .99; }
 h1 { max-width: 700px; margin-bottom: 32px; font-size: clamp(70px, 9vw, 128px); }
-#hero-title { white-space: nowrap; font-size: clamp(60px, 8vw, 112px); }
+#hero-title { white-space: nowrap; font-size: clamp(56px, 7.25vw, 102px); }
 h1 em, h2 em { color: var(--orange); font-family: var(--serif); font-weight: 400; font-style: italic; letter-spacing: -.09em; }
 .hero-copy { position: relative; z-index: 2; max-width: 650px; isolation: isolate; }
 .hero-copy::before { content: ''; position: absolute; z-index: -1; inset: -45px -110px -70px -70px; background: radial-gradient(ellipse at 45% 42%, rgba(8,10,11,.94), rgba(8,10,11,.62) 47%, transparent 77%); filter: blur(8px); pointer-events: none; }
@@ -65,7 +65,7 @@ h1 em, h2 em { color: var(--orange); font-family: var(--serif); font-weight: 400
 .primary-cta span { color: var(--orange); font-size: 17px; }
 .primary-cta:hover { background: var(--orange); color: var(--ink); transform: translateY(-3px); }
 .primary-cta:hover span { color: var(--ink); }
-.hero-portrait { position: absolute; z-index: 0; top: 76px; right: 4.5vw; bottom: 0; width: 60%; height: auto; pointer-events: none; }
+.hero-portrait { position: absolute; z-index: 0; top: 76px; right: 2vw; bottom: 0; width: 60%; height: auto; pointer-events: none; }
 .hero-portrait::before { content: ''; position: absolute; z-index: -1; inset: 8% -10% 5% 14%; background: radial-gradient(circle at 50% 45%, rgba(255,107,26,.65), transparent 58%); filter: blur(38px); opacity: .8; }
 .hero-portrait figure { position: relative; z-index: 0; width: 100%; height: 100%; margin: 0; border: 0; background: transparent; overflow: visible; box-shadow: none; }
 .hero-portrait figure::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(12,13,15,.3) 0%, transparent 42%, rgba(12,13,15,.12) 100%), linear-gradient(to top, rgba(12,13,15,.72), transparent 28%); pointer-events: none; }
@@ -386,6 +386,7 @@ h2 { font-size: clamp(49px, 6.5vw, 82px); }
   .hero-lede { font-size: 15px; }
   .hero-meta { gap: 19px; }
   .hero-portrait { top: 82px; right: 0; bottom: 150px; width: 100vw; height: auto; opacity: .68; }
+  #hero-title { font-size: clamp(60px, 18vw, 92px); }
   .hero-portrait figure img { object-position: 74% center; }
   .hero-portrait .portrait-note { display: none; }
   .hud-primary { right: 2%; top: 10%; }
