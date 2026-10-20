@@ -169,6 +169,7 @@
 .project-capability-detail p { margin: 0; padding-left: 20px; border-left: 1px solid rgba(255,107,26,.3); color: var(--cream); font-size: 15px; line-height: 1.72; }
 .project-capability-detail p b { color: var(--text); font-size: 1em; font-weight: 650; }
 .organization-body .project-capability-detail p b { color: var(--orange); }
+.organization-body .project-capability-detail p { font-size: clamp(16px, 1.25vw, 21px); }
 .project-source { display: grid; grid-template-columns: .72fr 1fr; gap: 10vw; align-items: center; padding: 52px 0 78px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .project-source-card { min-height: 220px; padding: 28px; border: 1px solid rgba(255,107,26,.38); background: linear-gradient(135deg, rgba(255,107,26,.11), rgba(255,255,255,.02)); }
 .project-source-label { color: var(--dim); }
@@ -275,6 +276,7 @@
   .project-capability-copy { gap: 10px; margin-top: 22px; }
   .project-capability-detail { grid-template-columns: 1fr; gap: 12px; padding: 18px; }
   .project-capability-detail p { padding-left: 14px; font-size: 14px; }
+  .organization-body .project-capability-detail p { font-size: 14px; }
   .project-source { display: block; padding: 38px 0 50px; }
   .project-source-card { margin-top: 30px; padding: 20px 18px; }
   .project-source-card p { font-size: 14px; }
