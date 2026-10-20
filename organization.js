@@ -24,7 +24,9 @@ const organizationCases = [
       { src: './assets/org-ai-cover.png', title: 'AI 赋能设计 · 四类应用场景' },
       { src: './assets/org-ai-workflow.png', title: 'AI 实操流程 · 整体流程总览' },
       { src: './assets/org-gpt-eval.png', title: '赋能 UI 设计 · 工具实操手册' },
-      { type: 'image', src: './assets/additional-materials/org-ai-design-feedback.png', title: 'AI 赋能设计 · 分享反馈' }
+      { type: 'image', src: './assets/additional-materials/org-ai-design-feedback.png', title: 'AI 赋能设计 · 分享反馈' },
+      { type: 'image', src: './assets/additional-materials/org-ai-share-feedback.png', title: 'AI 赋能设计 · 分享评价' },
+      { type: 'image', src: './assets/additional-materials/org-ai-share-guide.png', title: 'AI 赋能设计 · GPT Plus 使用分享' }
     ]
   },
   {
