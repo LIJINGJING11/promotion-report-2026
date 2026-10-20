@@ -64,7 +64,6 @@ const organizationCases = [
     time: '2026.05',
     capability: [
       { title: 'AI 业务应用', copy: '围绕 TV 多角色 UI 产品功能短片，结合 AI 工具完成脚本、镜头与画面生产，验证 AI 在产品宣传物料场景中的应用。' },
-      { title: '工具分析与评估', copy: '在 3 天内快速调研 AI 视频生成工具，对提示词、画面生成、素材迭代与剪辑方案进行对比评估。' },
       { title: '知识沉淀与共享', copy: '沉淀短片制作流程与可复用方法，为后续设计创新与 AI 视频生产提供实践参考。' }
     ],
     icon: 'ai',
@@ -129,6 +128,7 @@ document.querySelector('#organization-standard').textContent = item.standard;
 document.querySelector('#organization-summary').textContent = item.summary;
 document.querySelector('#organization-time').textContent = item.time;
 const organizationCapability = document.querySelector('#organization-capability');
+organizationCapability.classList.toggle('is-two-row', item.capability.length === 2);
 organizationCapability.innerHTML = item.capability.map((detail, detailIndex) => [
   '<article class="project-capability-detail">',
   '<span>' + String(detailIndex + 1).padStart(2, '0') + ' / CAPABILITY</span>',
