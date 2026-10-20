@@ -27,7 +27,8 @@ const projectCases = [
       { type: 'image', src: './assets/project1-template-flow-audit.jpg', title: '模板下发流程与问题梳理', layout: 'document' },
       { type: 'image', src: './assets/project1-template-market.png', title: '小享桌面模板市场' },
       { type: 'image', src: './assets/project1-template-console.png', title: '模板管理后台' },
-      { type: 'link', href: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', title: '小享重构设计稿' }
+      { type: 'link', href: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', title: '小享重构设计稿' },
+      { type: 'link', href: 'https://applink.feishu.cn/client/todo/task_list?guid=52e427a8-7e1f-49dc-9bdf-597155dbb58e', title: '小享重构待办任务' }
     ]
   },
   {
