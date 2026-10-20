@@ -54,6 +54,7 @@ const projectCases = [
       { type: 'image', src: './assets/project2-cover.jpg', title: '酒店智能化素材工坊' },
       { type: 'image', src: './assets/project2-framework.png', title: '素材工坊方法框架' },
       { type: 'video', src: './assets/project2-demo-web.mp4', title: '素材工坊功能演示' },
+      { type: 'image', src: './assets/additional-materials/project2-usage-feedback.png', title: '酒店素材工坊 · 使用反馈' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfIHbii3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店素材工坊项目资料' }
     ]
   },
