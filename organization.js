@@ -25,7 +25,8 @@ const organizationCases = [
       { src: './assets/org-ai-workflow.png', title: 'AI 实操流程 · 整体流程总览' },
       { src: './assets/org-gpt-eval.png', title: '赋能 UI 设计 · 工具实操手册' },
       { type: 'image', src: './assets/additional-materials/org-ai-share-feedback.png', title: 'AI 赋能设计 · 分享评价' },
-      { type: 'image', src: './assets/additional-materials/org-ai-share-guide.png', title: 'AI 赋能设计 · GPT Plus 使用分享' }
+      { type: 'image', src: './assets/additional-materials/org-ai-share-guide.png', title: 'AI 赋能设计 · GPT Plus 使用分享' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/Jfygw7dCviHVh6kQAJXcytVKnkb?from=from_copylink', title: 'AI 赋能设计资料' }
     ]
   },
   {
@@ -78,7 +79,9 @@ const organizationCases = [
       { icon: 'diagnostic', label: 'ORGANIZATION REVIEW', copy: '在 <b>3 天内</b>快速调研并掌握 AI 视频生成工作流，针对画面稳定性、UI 风格匹配与素材迭代问题持续优化，沉淀可复用的 AI 短片制作方法。' }
     ],
     media: [
-      { type: 'image', src: './assets/additional-materials/org-tv-ai-feedback.png', title: 'AI 短片制作 · 项目反馈' }
+      { type: 'image', src: './assets/additional-materials/org-tv-ai-feedback.png', title: 'AI 短片制作 · 项目反馈' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/BrHowPFeri1uemkk4EjcfSBTnag?from=from_copylink', title: 'AI 视频制作 · 深度思考' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/XRnOwskHQipYSdkKbvqcY98mns7?from=from_copylink', title: 'AI 视频制作 · 视频制作资产库' }
     ]
   },
   {
@@ -107,7 +110,7 @@ const organizationCases = [
       { type: 'image', src: './assets/project2-framework.png', title: '素材工坊方法框架' },
       { type: 'video', src: './assets/project2-demo-web.mp4', title: '素材工坊功能演示' },
       { type: 'image', src: './assets/additional-materials/org-workshop-feedback.png', title: '酒店素材工坊 · 项目反馈' },
-      { id: 'org-workshop-project-link', type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfJHbi3i3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店智能化素材工坊项目资料' }
+      { id: 'org-workshop-project-link', type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfIHbii3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店智能化素材工坊项目资料' }
     ]
   }
 ];

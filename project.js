@@ -17,7 +17,7 @@ const projectCases = [
       { icon: 'workflow', label: 'PROJECT RESULT', copy: '完成一期、二期共 <b>2 个阶段</b>的视觉与交互设计交付，覆盖 TV 配置、互动模板等 <b>20 个核心模块</b>，累计输出 <b>200+ 个页面设计</b>、<b>30+ 条关键交互流程</b>，推动核心模块的视觉与交互优化落地。' },
       { icon: 'management', label: 'PROJECT REVIEW', copy: '完成 <b>12 轮研发对齐</b>、<b>6 轮设计走查</b>，推动解决 <b>60 项</b>界面还原与交互问题，闭环率达 <b>100%</b>；沉淀 <b>160+ 项组件或交互规范</b>，并在 <b>18 个后续模块</b>中复用。' }
     ],
-    link: 'https://mastergo.com/goto/WOV8lsja?page_id=145:38161&file=140525099497058', linkText: '打开 TCL 行业开放平台协作文件',
+    link: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', linkText: '打开小享重构设计稿',
     media: [
       { type: 'image', src: './assets/project1-current-flow.jpg', title: '当前交互流程' },
       { type: 'image', src: './assets/project1-optimized-flow.jpg', title: '优化后的交互流程' },
@@ -26,7 +26,8 @@ const projectCases = [
       { type: 'image', src: './assets/project1-tv-settings.png', title: 'TV 配置与开机策略' },
       { type: 'image', src: './assets/project1-template-flow-audit.jpg', title: '模板下发流程与问题梳理', layout: 'document' },
       { type: 'image', src: './assets/project1-template-market.png', title: '小享桌面模板市场' },
-      { type: 'image', src: './assets/project1-template-console.png', title: '模板管理后台' }
+      { type: 'image', src: './assets/project1-template-console.png', title: '模板管理后台' },
+      { type: 'link', href: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', title: '小享重构设计稿' }
     ]
   },
   {
@@ -47,11 +48,12 @@ const projectCases = [
       { icon: 'workflow', label: 'PROJECT RESULT', copy: '完成素材工坊交付并投入技术支持日常使用，覆盖 <b>10+ 名技术支持及设计人员</b>、<b>7 类高频素材处理场景</b>，累计支持 <b>500+ 次素材生成或处理</b>。' },
       { icon: 'diagnostic', label: 'PROJECT REVIEW', copy: '通过工具化、标准化处理，将单次处理平均耗时由 <b>30 分钟缩短至 3 分钟</b>，效率提升 <b>90%</b>；降低重复性工作的人力投入，释放时间用于复杂问题处理与核心设计任务。' }
     ],
-    link: './assets/project2-demo-web.mp4', linkText: '打开素材工坊功能演示',
+    link: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfIHbii3bkkNHqhcf2W4njV?from=from_copylink', linkText: '打开酒店素材工坊项目资料',
     media: [
       { type: 'image', src: './assets/project2-cover.jpg', title: '酒店智能化素材工坊' },
       { type: 'image', src: './assets/project2-framework.png', title: '素材工坊方法框架' },
-      { type: 'video', src: './assets/project2-demo-web.mp4', title: '素材工坊功能演示' }
+      { type: 'video', src: './assets/project2-demo-web.mp4', title: '素材工坊功能演示' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/E2TXwfIHbii3bkkNHqhcf2W4njV?from=from_copylink', title: '酒店素材工坊项目资料' }
     ]
   },
   {
@@ -125,7 +127,7 @@ const projectCases = [
       { icon: 'management', label: 'PROJECT RESULT', copy: '累计完成 <b>100 余家酒店</b>的视觉素材设计与交付，并完成 <b>20+ 个重点商业项目</b>设计支持；围绕品牌形象、客房场景与运营需求，兼顾品牌一致性和酒店个性化表达。' },
       { icon: 'workflow', label: 'PROJECT REVIEW', copy: '统筹多客户、多类型任务的方案输出、反馈修改与交付对齐；完成鸿鹄重点汇报 PPT，并支持 HR 智能助手、AI 数据大屏、Turing Logo 等项目，为多类业务场景提供设计支持，成果获领导认可。' }
     ],
-    link: './assets/project5-dashboard.mp4', linkText: '打开 AI 数据大屏演示',
+    link: 'https://tcl-eaglelab.feishu.cn/wiki/AMWpwwYqTiWgzWky0r2cDhBCnsg?from=from_copylink', linkText: '打开 AI 数据大屏资料',
     media: [
       { type: 'image', src: './assets/project5-hr.png', title: 'HR 智能助手交互方案' },
       { type: 'image', src: './assets/project5-ppt-board.png', title: '重点项目汇报支持' },
@@ -133,7 +135,10 @@ const projectCases = [
       { type: 'image', src: './assets/project5-turing.png', title: 'Turing 标识设计' },
       { type: 'image', src: './assets/project5-turing-cowork-concepts.png', title: 'Turing Cowork 标识概念提案' },
       { type: 'image', src: './assets/additional-materials/project5-ppt-feedback.jpg', title: '酒店商业项目 · PPT 反馈' },
-      { type: 'image', src: './assets/additional-materials/project5-turing-feedback.png', title: '酒店商业项目 · Turing 反馈' }
+      { type: 'image', src: './assets/additional-materials/project5-turing-feedback.png', title: '酒店商业项目 · Turing 反馈' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/AMWpwwYqTiWgzWky0r2cDhBCnsg?from=from_copylink', title: 'AI 数据大屏资料' },
+      { type: 'link', href: 'https://mastergo.com/goto/WZCzJgjX?page_id=11:22363&file=180293573465163', title: 'HR 智能助手设计稿' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/Z6mkwJf5eiMyPlkwNNLcLTYBnPg?from=from_copylink', title: 'Turing Logo 资料' }
     ]
   }
 ];
