@@ -19,6 +19,7 @@ const projectCases = [
     ],
     link: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', linkText: '打开小享重构设计稿',
     media: [
+      { type: 'image', src: './assets/project1-task-board.png', title: '小享重构 · 研发任务看板' },
       { type: 'image', src: './assets/project1-current-flow.jpg', title: '当前交互流程' },
       { type: 'image', src: './assets/project1-optimized-flow.jpg', title: '优化后的交互流程' },
       { type: 'image', src: './assets/project1-components.png', title: '部分组件与规范' },
