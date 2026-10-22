@@ -45,15 +45,16 @@ const organizationCases = [
     s: 'AI 生图模型在设计场景中的应用持续拓展，但生成图像的画质稳定性与文字还原效果仍存在不足，团队需要可靠的实测判断作为工具选择与优化参考。',
     t: '负责 GPT 生图模型的实测评估、问题分析与方案输出，建立可对比的观察维度，为平台能力优化与团队应用提供依据。',
     a: '围绕设计常用的画面、版式与文字需求设定测试任务，记录不同模型与参数组合的输出表现；聚焦画质、文字还原与可控性问题进行归因分析，整理对比结论与优化方向，并同步给相关团队。',
-    r: '完成 GPT 生图模型的实测评估与问题归纳，输出画质优化方案，探索提升图像文字还原效果的模型方向；通过专题分享推动评测经验交流，参会人数达 200+。后续将深度测评 5 个 AI 生图模型，从画面质量、文字还原、指令遵循、风格表现及场景适配等维度开展对比分析，形成可参考的评估结论与优化建议，为平台能力优化及后续设计应用提供依据。',
+    r: '完成 GPT 生图模型的实测评估与问题归纳，输出画质优化方案，探索提升图像文字还原效果的模型方向；通过专题分享推动评测经验交流，参会人数达 500+。后续将深度测评 5 个 AI 生图模型，从画面质量、文字还原、指令遵循、风格表现及场景适配等维度开展对比分析，形成可参考的评估结论与优化建议，为平台能力优化及后续设计应用提供依据。',
     resultLayout: 'cards',
     resultDetails: [
-      { icon: 'diagnostic', label: 'ORGANIZATION RESULT', copy: '完成 GPT 生图模型的实测评估与问题归纳，输出画质优化方案，探索提升图像文字还原效果的模型方向；通过专题分享推动评测经验交流，参会人数达 <b>200+</b>。' },
+      { icon: 'diagnostic', label: 'ORGANIZATION RESULT', copy: '完成 GPT 生图模型的实测评估与问题归纳，输出画质优化方案，探索提升图像文字还原效果的模型方向；通过专题分享推动评测经验交流，参会人数达 <b>500+</b>。' },
       { icon: 'workflow', label: 'ORGANIZATION REVIEW', copy: '后续将深度测评 <b>5 个 AI 生图模型</b>，从画面质量、文字还原、指令遵循、风格表现及场景适配等维度形成评估结论与优化建议，为平台能力优化与后续设计应用提供依据。' }
     ],
     media: [
       { src: './assets/org-gpt-eval.png', title: 'GPT Image2 · UI 设计实操与评估资料' },
       { type: 'image', src: './assets/additional-materials/org-gpt-eval-feedback.jpg', title: 'GPT 生图模型测评 · 测评反馈' },
+      { type: 'image', src: './assets/org-gpt-tech-share-520.png', title: 'GPT 生图模型测评 · 鸿鹄 AI 技术分享会参会记录' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/S4ozwzBswisjCekwaSXcdHYunXe?from=from_copylink', title: 'GPT 生图模型测评资料 01' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/PJVywojiiibDkNkjjCCcd1THngh?from=from_copylink', title: 'GPT 生图模型测评资料 02' }
     ]
