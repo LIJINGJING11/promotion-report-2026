@@ -14,10 +14,10 @@ const organizationCases = [
     s: 'AI 工具快速演进，但团队在 UI、演示、视频与海报场景中的探索较为分散，缺少一套可复用、可落地的实操方法。',
     t: '负责梳理不同设计场景的 AI 应用路径，完成工具分析、流程沉淀与专题分享，推动个人探索转化为团队可参考的方法。',
     a: '聚焦四类高频设计场景，拆分实际任务与关键步骤；对工具能力和适用边界进行评估，沉淀操作流程、示例与优化建议，形成《AI 赋能设计》方案，并先后在互联网内部与鸿鹄技术大会进行专题分享，共完成 2 次分享。',
-    r: '沉淀覆盖 UI、演示、视频、海报四类设计场景的 AI 实操流程与工具优化方法，为团队应用 AI 辅助设计提供可复用的实践参考。通过专题培训与技能分享，累计参与培训人数达 200+；其中，面向全体员工开展 PPT 技能分享，围绕内容梳理、版式优化与 AI 辅助制作等环节，帮助员工提升演示文稿制作效率与表达质量，获得广泛认可，并被应用于日常工作。推动实操经验向实际应用转化，助力团队设计效率与业务响应能力提升。',
+    r: '沉淀覆盖 UI、演示、视频、海报四类设计场景的 AI 实操流程与工具优化方法，为团队应用 AI 辅助设计提供可复用的实践参考。通过专题培训与技能分享，累计参与培训人数达 500+；其中，面向全体员工开展 PPT 技能分享，围绕内容梳理、版式优化与 AI 辅助制作等环节，帮助员工提升演示文稿制作效率与表达质量，获得广泛认可，并被应用于日常工作。推动实操经验向实际应用转化，助力团队设计效率与业务响应能力提升。',
     resultLayout: 'cards',
     resultDetails: [
-      { icon: 'workflow', label: 'ORGANIZATION RESULT', copy: '沉淀覆盖 UI、演示、视频、海报 <b>4 类设计场景</b>的 AI 实操流程与工具优化方案，形成可复用实践参考；组织专题培训与技能分享，累计参训 <b>200+</b> 人，收获团队认可，带动全员围绕 Codex 交流研讨，促进方法经验在团队沉淀共享。' },
+      { icon: 'workflow', label: 'ORGANIZATION RESULT', copy: '沉淀覆盖 UI、演示、视频、海报 <b>4 类设计场景</b>的 AI 实操流程与工具优化方案，形成可复用实践参考；组织专题培训与技能分享，累计参训 <b>500+</b> 人，收获团队认可，带动全员围绕 Codex 交流研讨，促进方法经验在团队沉淀共享。' },
       { icon: 'management', label: 'ORGANIZATION REVIEW', copy: '面向全员开展 PPT 技能分享，聚焦内容梳理、版式优化与 AI 辅助制作，提升演示文稿质量；PPT 制作效率较手动制作提升 <b>200%</b>，推动经验落地，提升团队设计产出与业务响应效率。' }
     ],
     media: [
@@ -26,6 +26,7 @@ const organizationCases = [
       { src: './assets/org-gpt-eval.png', title: '赋能 UI 设计 · 工具实操手册' },
       { type: 'image', src: './assets/additional-materials/org-ai-share-feedback.png', title: 'AI 赋能设计 · 分享评价' },
       { type: 'image', src: './assets/additional-materials/org-ai-share-guide.png', title: 'AI 赋能设计 · GPT Plus 使用分享' },
+      { type: 'image', src: './assets/org-ai-tech-share-521.png', title: 'AI 赋能设计 · 鸿鹄 AI 技术分享会参会记录' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/Jfygw7dCviHVh6kQAJXcytVKnkb?from=from_copylink', title: 'AI 赋能设计资料' }
     ]
   },
