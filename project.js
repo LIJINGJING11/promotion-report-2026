@@ -15,7 +15,7 @@ const projectCases = [
     resultLayout: 'cards',
     resultDetails: [
       { icon: 'workflow', label: 'PROJECT RESULT', copy: '完成一期、二期共 <b>2 个阶段</b>的视觉与交互设计交付，覆盖 TV 配置、互动模板等 <b>20 个核心模块</b>，累计输出 <b>200+ 个页面设计</b>、<b>30+ 条关键交互流程</b>，推动核心模块的视觉与交互优化落地。' },
-      { icon: 'management', label: 'PROJECT REVIEW', copy: '完成 <b>12 轮研发对齐</b>、<b>6 轮设计走查</b>，推动解决 <b>60 项</b>界面还原与交互问题，闭环率达 <b>100%</b>；沉淀 <b>160+ 项组件或交互规范</b>，并在 <b>18 个后续模块</b>中复用。' }
+      { icon: 'management', label: 'PROJECT REVIEW', copy: '完成 <b>12 轮研发对齐</b>、<b>6 轮设计走查</b>，推动解决 <b>60 项</b>界面还原与交互问题，闭环率达 <b>100%</b>；沉淀 <b>160+ 项组件或交互规范</b>。' }
     ],
     link: 'https://mastergo.com/goto/WZCow6xf?page_id=145:38161&file=140525099497058', linkText: '打开小享重构设计稿',
     media: [
