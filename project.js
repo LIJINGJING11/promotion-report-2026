@@ -141,6 +141,7 @@ const projectCases = [
       { type: 'video', src: './assets/project5-dashboard.mp4', title: 'AI 数据大屏演示' },
       { type: 'image', src: './assets/project5-turing.png', title: 'Turing 标识设计' },
       { type: 'image', src: './assets/project5-turing-cowork-concepts.png', title: 'Turing Cowork 标识概念提案' },
+      { type: 'image', src: './assets/additional-materials/project5-hotel-project-folder.png', title: '小享酒店项目 · 项目文件夹' },
       { type: 'image', src: './assets/additional-materials/project5-ppt-feedback.jpg', title: '酒店商业项目 · PPT 反馈' },
       { type: 'image', src: './assets/additional-materials/project5-turing-feedback.png', title: '酒店商业项目 · Turing 反馈' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/AMWpwwYqTiWgzWky0r2cDhBCnsg?from=from_copylink', title: 'AI 数据大屏资料' },
