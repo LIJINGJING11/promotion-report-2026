@@ -52,7 +52,7 @@ const organizationCases = [
       { icon: 'workflow', label: 'ORGANIZATION REVIEW', copy: '后续将深度测评 <b>5 个 AI 生图模型</b>，从画面质量、文字还原、指令遵循、风格表现及场景适配等维度形成评估结论与优化建议，为平台能力优化与后续设计应用提供依据。' }
     ],
     media: [
-      { src: './assets/org-gpt-eval.png', title: 'GPT Image2 · UI 设计实操与评估资料' },
+      { src: './assets/org-gpt-eval-conclusion.png', title: 'GPT Image2 · UI 设计实操与评估资料' },
       { type: 'image', src: './assets/additional-materials/org-gpt-eval-feedback.jpg', title: 'GPT 生图模型测评 · 测评反馈' },
       { type: 'image', src: './assets/org-gpt-tech-share-520.png', title: 'GPT 生图模型测评 · 鸿鹄 AI 技术分享会参会记录' },
       { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/S4ozwzBswisjCekwaSXcdHYunXe?from=from_copylink', title: 'GPT 生图模型测评资料 01' },
