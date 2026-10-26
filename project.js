@@ -120,7 +120,6 @@ const projectCases = [
     no: '05', filter: 'management', standard: '团队协作及项目管理', title: '酒店商业项目统筹与重点汇报支持', time: '2025.01 — 至今',
     capability: [
       { title: '团队协作及项目管理', copy: '能够统筹多客户、多类型设计任务并行推进，把握节奏，保障项目按质量要求完成交付。' },
-      { title: '资源整合与效率提升', copy: '通过教程、模板与素材规范的沉淀和复用，减少重复沟通与制作成本，支撑团队协同工作。' },
       { title: '交付保障', copy: '兼顾常规批量设计任务与紧急重点项目需求，在多项目并行情况下维持稳定的响应与交付质量。' }
     ],
     icon: 'management', iconLabel: 'PROJECT / CONTROL',
