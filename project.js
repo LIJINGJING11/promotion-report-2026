@@ -89,7 +89,8 @@ const projectCases = [
       { type: 'image', src: './assets/additional-materials/project3-hampton-communication-01.png', title: '欢朋项目 · 协调沟通' },
       { type: 'image', src: './assets/additional-materials/project3-hampton-communication-02.png', title: '欢朋项目 · 业务反馈' },
       { type: 'image', src: './assets/additional-materials/project3-hampton-hierarchy.png', title: '欢朋项目 · 界面信息层级' },
-      { type: 'image', src: './assets/additional-materials/project3-hampton-coordination.png', title: '欢朋项目 · 组织协调' }
+      { type: 'image', src: './assets/additional-materials/project3-hampton-coordination.png', title: '欢朋项目 · 组织协调' },
+      { type: 'link', href: 'https://tcl-eaglelab.feishu.cn/wiki/KglnwsWvei6t5AkqBJ5c7OgfnKh?from=from_copylink', title: '欢朋酒店项目资料' }
     ]
   },
   {
