@@ -18,7 +18,7 @@ const organizationCases = [
     resultLayout: 'cards',
     resultDetails: [
       { icon: 'workflow', label: 'ORGANIZATION RESULT', copy: '沉淀覆盖 UI、演示、视频、海报 <b>4 类设计场景</b>的 AI 实操流程与工具优化方案，形成可复用实践参考；推动 UI 设计效率提升 <b>200%</b>；组织专题培训与技能分享，累计参训 <b>500+</b> 人，收获团队认可，带动全员围绕 Codex 交流研讨，促进方法经验在团队沉淀共享。' },
-      { icon: 'management', label: 'ORGANIZATION REVIEW', copy: '面向全员开展 PPT 技能分享，聚焦内容梳理、版式优化与 AI 辅助制作，提升演示文稿质量；PPT 制作效率较手动制作提升 <b>200%</b>，推动经验落地，提升团队设计产出与业务响应效率。' }
+      { icon: 'management', label: 'ORGANIZATION REVIEW', copy: '面向全员开展 PPT 技能分享，聚焦内容梳理、版式优化与 AI 辅助制作，提升演示文稿质量；PPT 制作效率较手动制作提升 <b>700%</b>，推动经验落地，提升团队设计产出与业务响应效率。' }
     ],
     media: [
       { src: './assets/org-ai-cover.png', title: 'AI 赋能设计 · 四类应用场景' },
